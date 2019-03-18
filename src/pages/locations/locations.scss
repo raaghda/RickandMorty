@@ -1,0 +1,58 @@
+.location-list {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    @media screen and (min-width: 630px) {
+      max-width: 625px;
+    }
+    @media screen and (min-width: 992px) {
+      max-width: 960px;
+    }
+  }
+
+  .location-item {
+    float: left;
+    width: 300px;
+    background-color: #fff;
+    height: 250px;
+    margin: 30px 1%;
+    border-radius: 10px;
+    box-shadow: 0 40px 110px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    background: #333741;
+    color: white;
+    font-size: 12px;
+}
+
+  span {
+    float: left;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    color: #FFB88C;
+    transition: 0.5s;
+    margin: 0 2px 0;
+    font-weight: 100;
+  }
+
+.location-type, .location-dimension, .location-residents {
+  text-align: right;
+  margin: 10px 10px;
+  font-size: 16px;
+}
+
+.location-name{
+  color: #DE6262;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px 0px 15px;
+  opacity: 0.8;
+  position: relative;
+  bottom: 0px;
+  background: rgb(32, 35, 41);
+  padding: 0.625rem;
+  width: 280px;
+  text-align: center;
+  min-height: 40px;
+}
